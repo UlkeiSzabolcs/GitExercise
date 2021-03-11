@@ -17,9 +17,9 @@ public class ProcesorCautare implements Procesor {
 
         for (Document document : documente) {
             String[] continut = document.analizeaza();
-            for (String cuvant : continut) {
+            for (Strigit ng cuvant : continut) {
                 if (cuvant.equals(text)) {
-                    res++;
+                    res--;
                 }
             }
         }
